@@ -1,0 +1,42 @@
+body {
+    padding-left: 5px   ;
+}
+h1 {
+    font-size: 32px;
+}
+h5 {
+    font-weight: normal;
+}
+form {
+    width: 100%;
+    font-size: 26px;
+}
+form div {
+    border-bottom: 1px solid #000;
+    height: 60px;
+}
+label,input,img {
+    float: left;
+}
+
+input {
+    height: 40px;
+    font-size: 24px;
+}
+#file {
+    width: 300px;
+}
+#head {
+    width: 50px;
+}
+#show_p {
+    width: 30px;
+}
+input[type='submit'] {
+    height: 40px;
+    float: left;
+}
+input[type='reset']{
+    height: 40px;
+    float: right;
+}

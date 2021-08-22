@@ -1,0 +1,76 @@
+@keyframes main {
+    from {opacity: 0}
+    to  {opacity: 1}
+}
+#main {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    animation-name: main;
+    animation-duration: 5s;
+    background-color: #fff;
+    background-image: linear-gradient(#87CEEB,#fff);
+    padding-bottom: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.line {
+    width: 100%;
+    height: 30px;
+    background-color: #00BFFF ;
+    margin: 10px 0 10px;
+}
+.line span{
+    float: left;
+    line-height: 30px;
+    margin-left: 30px;
+    color: 	#00008B;
+    font-weight: 800;
+    font-size: 20px;
+}
+.line a {
+    float: right;
+    line-height: 30px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.line a:hover {
+    text-decoration: underline;
+    color: #f00;
+}
+
+.i {
+    height: 300px;
+}
+
+.a {
+    width: 18%;
+    height: 285px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-left: 1.5%;
+    float: left;
+    display: inherit;
+}
+
+.a img {
+    width: 100%;
+    height: 220px;
+}
+.a span {
+    display: block;
+    color: black;
+    font-size: 18px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+b {
+    color: #f00;
+}

@@ -1,0 +1,15 @@
+h1 {
+    font-size: 32px;
+}
+
+form div {
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+    margin-top: 15px;
+}
+form div input,textarea {
+    font-size: 18px;
+}
+input[type='reset'] {
+    float: right;
+}
